@@ -7,5 +7,7 @@ app = FastAPI()
 
 @app.post("/detect/")
 async def create_upload_file(file: UploadFile):
+    """:return
+    """
     nn = FakeDetector(file)
     return {"filename": file.filename, "prediction": nn.prediction}
