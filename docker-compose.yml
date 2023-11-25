@@ -1,0 +1,35 @@
+version: "3"
+
+
+
+services:
+
+
+  server:
+
+
+
+    build: api/
+
+
+    command: python ./api/main.py
+
+
+    ports:
+      - 80:80
+
+
+  ui:
+
+
+    build: ui/
+
+
+    command: python ./ui/main.py
+
+
+    network_mode: host
+
+
+    depends_on:
+      - api

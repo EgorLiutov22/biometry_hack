@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile
 
-from nnetwork.main import FakeDetector
+from api.nnetwork.main import FakeDetector
 
 app = FastAPI()
 

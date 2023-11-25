@@ -16,3 +16,5 @@ class FakeDetector:
     @prediction.setter
     def prediction(self, value):
         self.__prediction = value
+
+

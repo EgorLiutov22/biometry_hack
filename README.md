@@ -14,6 +14,9 @@ http://127.0.0.1:8000/docs
 
 Для запуска ui, запустить файл ui/main.py и перейти на http://127.0.0.1:8050/
 
+$ docker-compose build
+$ docker-compose up
+
 
 
 
