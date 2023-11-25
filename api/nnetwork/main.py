@@ -1,4 +1,4 @@
-import random
+from find_faces import *
 
 
 class FakeDetector:
@@ -7,7 +7,7 @@ class FakeDetector:
         :file png
         """
         self.__file = file
-        self.__prediction = bool(random.getrandbits(1))
+        self.__prediction = get_video(file)
 
     @property
     def prediction(self):

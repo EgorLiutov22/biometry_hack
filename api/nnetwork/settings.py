@@ -1,19 +1,19 @@
 import numpy as np
 
 PRETRAINED_MODELS_3D = [{'type':'i3d',
-                         'path':"/kaggle/input/deepfake-detection-jph/j3d_e1_l0.1374.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/j3d_e1_l0.1374.model"},
                         {'type':'res34',
-                         'path':"/kaggle/input/deepfake-detection-jph/res34_1cy_minaug_nonorm_e4_l0.1794.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/res34_1cy_minaug_nonorm_e4_l0.1794.model"},
                         {'type':'mc3_112',
-                         'path':"/kaggle/input/deepfake-detection-jph/mc3_18_112_1cy_lilaug_nonorm_e9_l0.1905.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/mc3_18_112_1cy_lilaug_nonorm_e9_l0.1905.model"},
                         {'type':'mc3_224',
-                         'path':"/kaggle/input/deepfake-detection-jph/mc3_18_112t224_1cy_lilaug_nonorm_e7_l0.1901.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/mc3_18_112t224_1cy_lilaug_nonorm_e7_l0.1901.model"},
                         {'type':'r2p1_112',
-                         'path':"/kaggle/input/deepfake-detection-jph/r2p1_18_8_112tr_112te_e12_l0.1741.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/r2p1_18_8_112tr_112te_e12_l0.1741.model"},
                         {'type':'i3d',
-                         'path':"/kaggle/input/deepfake-detection-jph/i3dcutmix_e11_l0.1612.model"},
+                         'path':"/api/nnetwork/deepfake-detection-jph/i3dcutmix_e11_l0.1612.model"},
                         {'type':'r2p1_112',
-                         'path':"/kaggle/input/deepfake-detection-jph/r2plus1dcutmix_112_e10_l0.1608.model"}]
+                         'path':"/api/nnetwork/deepfake-detection-jph/r2plus1dcutmix_112_e10_l0.1608.model"}]
 
 # Face detection
 MAX_FRAMES_TO_LOAD = 100
